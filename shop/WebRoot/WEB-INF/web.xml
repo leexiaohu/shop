@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>DeleteCommodityFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DeleteCommodityFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCommodityIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DeleteCommodityIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCommodityNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DeleteCommodityNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QCHistoryServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QCHistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryAdminServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCommodityFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryCommodityFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCommodityIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryCommodityIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCommodityNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryCommodityNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCommodityServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryCommodityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ICServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ICServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyCommodityFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ModifyCommodityFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyCommodityNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ModifyCommodityNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyCommodityIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ModifyCommodityIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MCServlet</servlet-name>
+    <servlet-class>com.shop.servlet.MCServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QCommodityNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QCommodityNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QCommodityFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QCommodityFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QUServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QUServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QUNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QUNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QUFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QUFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StopUServlet</servlet-name>
+    <servlet-class>com.shop.servlet.StopUServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QUIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QUIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DUNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DUNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DUFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DUFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DUIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DUIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MUNameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.MUNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MUFServlet</servlet-name>
+    <servlet-class>com.shop.servlet.MUFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MUIdServlet</servlet-name>
+    <servlet-class>com.shop.servlet.MUIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MUServlet</servlet-name>
+    <servlet-class>com.shop.servlet.MUServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JHServlet</servlet-name>
+    <servlet-class>com.shop.servlet.JHServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryUserServlet</servlet-name>
+    <servlet-class>com.shop.servlet.QueryUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.shop.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindServlet</servlet-name>
+    <servlet-class>com.shop.servlet.FindServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContentServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ContentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GMServlet</servlet-name>
+    <servlet-class>com.shop.servlet.GMServlet</servlet-class>
+  </servlet>
+
+	<servlet>
+    <servlet-name>checkInfoServlet</servlet-name>
+    <servlet-class>com.shop.servlet.CheckInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUsernameServlet</servlet-name>
+    <servlet-class>com.shop.servlet.CheckUsernameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DepositServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DepositServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DrawServlet</servlet-name>
+    <servlet-class>com.shop.servlet.DrawServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TransferServlet</servlet-name>
+    <servlet-class>com.shop.servlet.TransferServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindMoney</servlet-name>
+    <servlet-class>com.shop.servlet.FindMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindBalance1</servlet-name>
+    <servlet-class>com.shop.servlet.FindBalance1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.shop.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClassifyServlet</servlet-name>
+    <servlet-class>com.shop.servlet.ClassifyServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DeleteCommodityFServlet</servlet-name>
+    <url-pattern>/DeleteCommodityFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCommodityIdServlet</servlet-name>
+    <url-pattern>/DeleteCommodityIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCommodityNameServlet</servlet-name>
+    <url-pattern>/DeleteCommodityNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QCHistoryServlet</servlet-name>
+    <url-pattern>/QCHistoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAdminServlet</servlet-name>
+    <url-pattern>/QueryAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommodityFServlet</servlet-name>
+    <url-pattern>/QueryCommodityFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommodityIdServlet</servlet-name>
+    <url-pattern>/QueryCommodityIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommodityNameServlet</servlet-name>
+    <url-pattern>/QueryCommodityNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommodityServlet</servlet-name>
+    <url-pattern>/QueryCommodityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ICServlet</servlet-name>
+    <url-pattern>/ICServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyCommodityFServlet</servlet-name>
+    <url-pattern>/ModifyCommodityFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyCommodityNameServlet</servlet-name>
+    <url-pattern>/ModifyCommodityNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyCommodityIdServlet</servlet-name>
+    <url-pattern>/ModifyCommodityIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MCServlet</servlet-name>
+    <url-pattern>/MCServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QCommodityNameServlet</servlet-name>
+    <url-pattern>/QCommodityNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QCommodityFServlet</servlet-name>
+    <url-pattern>/QCommodityFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QUServlet</servlet-name>
+    <url-pattern>/QUServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QUNameServlet</servlet-name>
+    <url-pattern>/QUNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QUFServlet</servlet-name>
+    <url-pattern>/QUFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StopUServlet</servlet-name>
+    <url-pattern>/StopUServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QUIdServlet</servlet-name>
+    <url-pattern>/QUIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DUNameServlet</servlet-name>
+    <url-pattern>/DUNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DUFServlet</servlet-name>
+    <url-pattern>/DUFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DUIdServlet</servlet-name>
+    <url-pattern>/DUIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MUNameServlet</servlet-name>
+    <url-pattern>/MUNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MUFServlet</servlet-name>
+    <url-pattern>/MUFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MUIdServlet</servlet-name>
+    <url-pattern>/MUIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MUServlet</servlet-name>
+    <url-pattern>/MUServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JHServlet</servlet-name>
+    <url-pattern>/JHServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUserServlet</servlet-name>
+    <url-pattern>/QueryUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindServlet</servlet-name>
+    <url-pattern>/FindServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContentServlet</servlet-name>
+    <url-pattern>/ContentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GMServlet</servlet-name>
+    <url-pattern>/GMServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkInfoServlet</servlet-name>
+    <url-pattern>/checkInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUsernameServlet</servlet-name>
+    <url-pattern>/checkUsernameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepositServlet</servlet-name>
+    <url-pattern>/DepositServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DrawServlet</servlet-name>
+    <url-pattern>/DrawServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TransferServlet</servlet-name>
+    <url-pattern>/TransferServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMoney</servlet-name>
+    <url-pattern>/FindMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindBalance1</servlet-name>
+    <url-pattern>/FindBalance1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassifyServlet</servlet-name>
+    <url-pattern>/ClassifyServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>/shop/backstage/login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

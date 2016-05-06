@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>页面右下角飘浮的广告位丨芯晴网页特效丨CsrCode.Cn</title>
+<meta http-equiv="content-Type" content="text/html;charset=gb2312">
+</head>
+<body>
+<!--把下面代码加到<body>与</body>之间-->
+<div id="ad" style="position:absolute;border:1px solid #000;right:0;"><a href="http://www.CsrCode.cn/" target="_blank">右下角飘浮的广告</a></div>
+<script language=javascript>
+function rightBottomAd(){
+ var abc = document.getElementById("ad");
+ abc.style.top = document.documentElement.scrollTop+document.documentElement.clientHeight-20+"px"; 
+ setTimeout(function(){rightBottomAd();},50);
+}
+rightBottomAd();
+</script>
+<p align="center">本特效由 <a href="http://www.CsrCode.cn">芯晴网页特效</a>丨CsrCode.Cn 收集于互联网，只为兴趣与学习交流，不作商业用途。</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+

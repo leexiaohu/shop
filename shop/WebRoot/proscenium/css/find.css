@@ -1,0 +1,140 @@
+﻿* {
+	margin:0;
+	padding:0;
+	font-family: Tahoma, Verdana, "宋体";
+}
+
+#head {
+	height:100px;
+	background-color:rgb(177,0,0);
+}
+
+#head-in {
+	height:100px;
+	width:1250px;
+	margin:0 auto;
+}
+
+#logo {
+	height:100px;
+	width:350px;
+	font-size:36px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	overflow:hidden;
+	float:left;
+}
+
+#logo-right {
+	height:100px;
+	width:900px;
+	float:right;
+}
+
+#login{
+	height:30px;
+	width:870px;
+}
+
+#login a{
+	color:rgb(255,208,192);
+	text-decoration:none;
+}
+
+#login a:hover{
+	color:#FFFFFF;
+}
+
+#find{
+	height:70px;
+	width:870px;
+}
+
+#find a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#bar{
+	height:30px;
+	background-color:rgb(143,1,0);
+	text-align:center;
+}
+
+#bar-in{
+	height:30px;
+	width:1180px;
+	margin:0 auto;
+}
+
+#bar-in a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+#bar-in td:hover{
+	background-color:rgb(122,0,0);
+}
+
+
+#content {
+	
+}
+
+#content-in {
+	width:1180px;
+	margin:0 auto;
+}
+
+#ni a{
+	text-decoration:none;
+	color:#996633;
+}
+
+#ni a:hover{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+#font a{
+	text-align:center;
+	text-decoration:none;
+	color:#996633;
+}
+
+#font a:hover{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+#xx a{
+	text-decoration:none;
+	color:rgb(102,102,102);
+}
+
+#xx a:hover{
+	text-decoration:underline;
+	color:#FF0000;
+}
+
+#tp:hover{
+	border-style:solid;
+	border-color:rgb(234,229,225);
+}
+
+
+#bottom{
+	height:200px;
+	padding-top:20px;
+
+
+}
+
+#bottom table{
+	text-align:center;
+	font-size:12px;
+	line-height:20px;
+	margin-top:500px;
+}
